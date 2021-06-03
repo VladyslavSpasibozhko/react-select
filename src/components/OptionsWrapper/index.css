@@ -1,0 +1,30 @@
+.select__option-wrapper {
+  cursor: pointer;
+  padding: 0 5px;
+  border-radius: 3px;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.select__option-wrapper:hover {
+  background-color: lightgray;
+}
+
+.select__option-wrapper--is-selected {
+  background-color: lightgray;
+}
+
+.select__option-wrapper--is-disabled {
+  pointer-events: none;
+  opacity: 0.8;
+}
+
+.select__option {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: 100%;
+}

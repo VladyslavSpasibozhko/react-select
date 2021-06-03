@@ -1,0 +1,14 @@
+.select__list-wrapper {
+  position: relative;
+  width: 100%;
+}
+
+.select__virtualized-list-wrapper {
+  background-color: gainsboro;
+  margin-top: 5px;
+  border-radius: 5px;
+  padding: 5px;
+
+  border: none;
+  outline: none;
+}

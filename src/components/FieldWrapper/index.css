@@ -1,0 +1,31 @@
+.select__field-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  background-color: gainsboro;
+  border-radius: 5px;
+}
+
+.select__field-wrapper--is-focused {
+  box-shadow: inset 0 0 2px darkgrey;
+}
+
+.select__field-wrapper--is-opened {
+  box-shadow: inset 0 0 2px darkgrey;
+}
+
+.select__writable-field {
+  flex: 1;
+}
+
+.select__writable-field input {
+  background: transparent;
+  border: none;
+  outline: none;
+  width: 100%;
+}
+
+.select__writable-field input:focus {
+  border: none;
+}

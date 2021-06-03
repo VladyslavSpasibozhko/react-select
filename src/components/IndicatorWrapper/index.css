@@ -1,0 +1,18 @@
+.select__indicator-wrapper {
+}
+
+.select__indicator-wrapper--is-focused {
+}
+
+.select__indicator-wrapper--is-opened {
+}
+
+.select__indicator {
+}
+
+.select__indicator--is-opened i::before {
+  transform: rotate(180deg);
+}
+
+.select__indicator--is-focused {
+}
